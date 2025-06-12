@@ -1,0 +1,18 @@
+{
+  "package": "hvac-zoning",
+  "version": "1.0.0",
+  "apps": [
+    {
+      "id": "hvac-zoning-parent",
+      "name": "HVAC Zoning - Parent",
+      "namespace": "example",
+      "location": "apps/HVAC-Zoning-Parent.groovy"
+    },
+    {
+      "id": "hvac-zoning-child",
+      "name": "HVAC Zoning - Child",
+      "namespace": "example",
+      "location": "apps/HVAC-Zoning-Child.groovy"
+    }
+  ]
+}
