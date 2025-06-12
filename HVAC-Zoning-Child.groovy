@@ -1,11 +1,14 @@
+// HVAC Zoning - Child
+
 definition(
     name: "HVAC Zoning - Child",
     namespace: "example",
     author: "Your Name",
     description: "Single HVAC Zone",
-    category: "Convenience",
+    category: "Green Living",
     iconUrl: "https://raw.githubusercontent.com/hubitat/example-icons/main/vent.png",
-    iconX2Url: "https://raw.githubusercontent.com/hubitat/example-icons/main/vent@2x.png"
+    iconX2Url: "https://raw.githubusercontent.com/hubitat/example-icons/main/vent@2x.png",
+    parent: "example.HVAC Zoning - Parent"
 )
 
 preferences {
